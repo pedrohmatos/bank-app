@@ -118,7 +118,7 @@ function App() {
                 <Navigation />
                 <StyledDiv>
                     <StyledBalanceSection $img={[bg1, bg2]}>
-                        <h2>Olá, Joana</h2>
+                        <h2>Bem vindo</h2>
                         <time>{currentDay}</time>
                         <div>
                             <div>

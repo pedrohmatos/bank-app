@@ -9,7 +9,7 @@ const Header = (): JSX.Element => {
             <StyledHeader as={"header"}>
                 <img src={logo} alt="Bytebank" />
                 <StyledContainer>
-                    <span>Joana da Silva Oliveira</span>
+                    <span>Nome do usuário</span>
                     <img src={avatar} alt="Joana da Silva Oliveira" />
                 </StyledContainer>
             </StyledHeader>
