@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { StyledContainer } from "./shared/StyledContainer";
+import { StyledContainer } from "./StyledContainer";
 
-export const StyledMain = styled(StyledContainer)`
+export const StyledDivContent = styled(StyledContainer)`
     align-items: stretch;
 `;
 

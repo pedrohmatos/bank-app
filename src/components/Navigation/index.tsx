@@ -1,11 +1,12 @@
+import { NavLink } from "react-router-dom"
 import StyledNav from "./StyledNav"
 
 const Navigation = (): JSX.Element => {
     return (
         <StyledNav>
-            <a href="#" className="active">Início</a>
-            <a href="#">Transferências</a>
-            <a href="#">Planejamento</a>
+            <NavLink to={"/"}>Início</NavLink>
+            <NavLink to={"/planejamento"}>Planejamento</NavLink>
+            <a href="#">Atualizações</a>
         </StyledNav>
     )
 }

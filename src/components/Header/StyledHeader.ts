@@ -5,8 +5,12 @@ export const StyledHeader = styled(StyledContainer)`
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     font-size: var(--fonte-t3);
-    padding-block: 30px;
+    padding: 30px;
     margin-bottom: 24px;
+
+    & h1 {
+        margin: 0;
+    }
 
     div {
         & span {

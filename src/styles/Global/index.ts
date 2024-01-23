@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
         --fonte-t1: 25px;
         --fonte-t2: 20px;
         --fonte-t3: 13px;
-        --cor-primaria: #000;
+        --cor-primaria: #212121;
         --cor-secundaria: #47A138;
         --cor-tercearia: #CBCBCB;
         --cor-quaternaria: #E4EDE3;

@@ -1,4 +1,4 @@
-import { Transacoes } from "../../App";
+import { Transacoes } from "../EnumTransacoes";
 
 type InputType = {
     tipoTransacao: Transacoes;
