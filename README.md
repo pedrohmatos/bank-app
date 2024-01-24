@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# App Bank
+Domine suas finanças com facilidade: o __AppBank__ permite que você registre transações detalhadas e planeje suas despesas com listas personalizadas, proporcionando controle total sobre seu dinheiro e tranquilidade financeira.
 
-Currently, two official plugins are available:
+## Índice
+- <a href="#abrir-projeto">Abrir Projeto</a>
+- <a href="#design-do-projeto">Design do Projeto</a>
+- <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
+- <a href="#autor">Autor</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Abrir Projeto
+[Link demonstração](#)  
+Clique no link acima para acessar a aplicação
 
-## Expanding the ESLint configuration
+## Design do Projeto
+### Visualização em telas pequenas &#8595;
+![Tela inicial](./public/images/mobile-home-design.png)
+![Tela de planejamento](./public/images/mobile-planning-design.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Visualização em telas grandes &#8595;
+![Tela inicial](./public/images/desktop-home-design.png)
+![Tela de planejamento](./public/images/desktop-planning-design.png)
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
+React, TypeScript, StyledComponents, Vite e Git  
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+[![My Skills](https://skillicons.dev/icons?i=react,ts,styledcomponents,vite,git)](https://skillicons.dev)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Autor
+Olá meu nome é Pedro Matos.  
+Sou apaixonado pelo ambiente de tecnologia. Adoro acompanhar o contexto tecnológico como um todo, tendências e lançamentos globais sobre programas, softwares, aparelhos, jogos, IA, etc. E venho estudando constantemente sobre programação.  
+
+Entre em contato comigo:  
+
+<a href="https://www.linkedin.com/in/pedro-matos-dev/" target="_blank" rel="noopener noreferrer">LinkedIn</a> 
